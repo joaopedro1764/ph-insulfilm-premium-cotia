@@ -4,7 +4,7 @@ import { MessageCircle, MapPin, Phone, Clock, Instagram, Facebook } from "lucide
 
 const Contact = () => {
   const openWhatsApp = () => {
-    window.open("https://wa.me/5511999999999?text=Olá! Gostaria de agendar uma visita na PH Insufilms para fazer um orçamento.", "_blank");
+    window.open("https://wa.me/5511974945257?text=Olá! Gostaria de agendar uma visita na PH Insufilms para fazer um orçamento.", "_blank");
   };
 
   const openMaps = () => {

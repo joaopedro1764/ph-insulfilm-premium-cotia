@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-car.jpg";
 
 const Hero = () => {
   const openWhatsApp = () => {
-    window.open("https://wa.me/5511999999999?text=Olá! Gostaria de fazer um orçamento para insufilm premium.", "_blank");
+    window.open("https://wa.me/5511974945257?text=Olá! Gostaria de fazer um orçamento para insufilm premium.", "_blank");
   };
 
   return (
@@ -18,32 +18,32 @@ const Hero = () => {
       
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold text-gray-200 mb-6 leading-tight">
             Insufilm 
             <span className="text-primary"> Premium</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-4 font-medium">
+          <p className="text-xl md:text-2xl text-gray-200 mb-4 font-medium">
             Padrão PH Insufilm
           </p>
           
-          <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto leading-relaxed text-white">
             Proteção, elegância e sofisticação para seu veículo. 
             Insufilms de linha premium com garantia e excelência em cada aplicação.
           </p>
 
-          <div className="flex flex-wrap justify-center gap-4 mb-8">
+          <div className="flex flex-wrap justify-center gap-4 mb-8 text-gray-200">
             <div className="flex items-center space-x-2 bg-background/10 backdrop-blur-sm rounded-lg px-4 py-2">
               <CheckCircle className="h-5 w-5 text-primary" />
-              <span className="text-primary-foreground font-medium">Garantia Premium</span>
+              <span className="font-medium">Garantia Premium</span>
             </div>
             <div className="flex items-center space-x-2 bg-background/10 backdrop-blur-sm rounded-lg px-4 py-2">
               <CheckCircle className="h-5 w-5 text-primary" />
-              <span className="text-primary-foreground font-medium">Instalação Profissional</span>
+              <span className="font-medium">Instalação Profissional</span>
             </div>
             <div className="flex items-center space-x-2 bg-background/10 backdrop-blur-sm rounded-lg px-4 py-2">
-              <CheckCircle className="h-5 w-5 text-primary" />
-              <span className="text-primary-foreground font-medium">Cotia - SP</span>
+              <CheckCircle className="h-5 w-5 text-gray-200" />
+              <span className="font-medium">Cotia - SP</span>
             </div>
           </div>
 
@@ -61,22 +61,16 @@ const Hero = () => {
           <Button 
             variant="outline" 
             size="lg" 
-            className="text-lg px-8 py-4 bg-background/10 backdrop-blur-sm border-primary/50 text-primary-foreground hover:bg-primary hover:text-primary-foreground border-2"
+            className="text-lg px-8 py-4 bg-background/10 backdrop-blur-sm border-primary/50 text-gray-200 hover:bg-primary hover:text-primary-foreground border-2"
           >
             <MapPin className="h-6 w-6 mr-3" />
             Visitar Loja
           </Button>
           </div>
 
-          <div className="mt-12 text-primary-foreground/70">
+          <div className="mt-12 text-white">
             <p className="text-sm">📍 Cotia, São Paulo | ⭐ +500 clientes satisfeitos</p>
           </div>
-        </div>
-      </div>
-
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-primary-foreground/50 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-primary-foreground/50 rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
     </section>

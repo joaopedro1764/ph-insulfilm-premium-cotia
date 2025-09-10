@@ -17,7 +17,7 @@ const BeforeAfter = () => {
   ];
 
   const openWhatsApp = () => {
-    window.open("https://wa.me/5511999999999?text=Olá! Vi o antes e depois do insufilm e gostaria de fazer um orçamento!", "_blank");
+    window.open("https://wa.me/5511974945257?text=Olá! Vi o antes e depois do insufilm e gostaria de fazer um orçamento!", "_blank");
   };
 
   return (

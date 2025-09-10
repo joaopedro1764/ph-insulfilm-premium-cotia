@@ -2,7 +2,7 @@ import { MessageCircle, MapPin, Phone, Instagram, Facebook } from "lucide-react"
 
 const Footer = () => {
   const openWhatsApp = () => {
-    window.open("https://wa.me/5511999999999?text=Olá! Gostaria de mais informações sobre os serviços da PH Insufilms.", "_blank");
+    window.open("https://wa.me/5511974945257?text=Olá! Gostaria de mais informações sobre os serviços da PH Insufilms.", "_blank");
   };
 
   return (
@@ -48,7 +48,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2 text-primary-foreground/80">
                 <Phone className="h-4 w-4" />
-                <span>(11) 99999-9999</span>
+                <span>(11)97494-5257</span>
               </div>
               <button 
                 onClick={openWhatsApp}

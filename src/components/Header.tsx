@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   const openWhatsApp = () => {
-    window.open("https://wa.me/5511999999999?text=Olá! Gostaria de fazer um orçamento para insufilm premium.", "_blank");
+    window.open("https://wa.me/5511974945257?text=Olá! Gostaria de fazer um orçamento para insufilm premium.", "_blank");
   };
 
   return (
@@ -56,7 +56,7 @@ const Header = () => {
         <div className="flex items-center space-x-3">
           <Button variant="outline" size="sm" className="hidden sm:flex">
             <Phone className="h-4 w-4 mr-2" />
-            (11) 99999-9999
+            (11) 97494-5257
           </Button>
           <Button onClick={openWhatsApp} variant="premium" size="sm">
             <MessageCircle className="h-4 w-4 mr-2" />
