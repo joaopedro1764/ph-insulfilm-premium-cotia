@@ -110,9 +110,9 @@ const Footer = () => {
       {/* Floating WhatsApp Button */}
       <button
         onClick={openWhatsApp}
-        className="fixed bottom-6 right-6 w-14 h-14 bg-accent hover:bg-accent/90 rounded-full flex items-center justify-center shadow-glow hover:scale-110 transition-all duration-300 z-50"
+        className="fixed bottom-6 right-6 w-14 h-14 bg-primary hover:bg-primary/90 rounded-full flex items-center justify-center shadow-glow hover:scale-110 transition-all duration-300 z-50"
       >
-        <MessageCircle className="h-7 w-7 text-accent-foreground" />
+        <MessageCircle className="h-7 w-7 text-primary-foreground" />
       </button>
     </footer>
   );

@@ -52,7 +52,7 @@ const Testimonials = () => {
       <Star
         key={index}
         className={`h-4 w-4 ${
-          index < rating ? 'text-accent fill-accent' : 'text-muted'
+          index < rating ? 'text-primary fill-primary' : 'text-muted'
         }`}
       />
     ));

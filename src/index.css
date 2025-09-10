@@ -17,10 +17,10 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    /* Premium automotive brand colors */
-    --primary: 220 91% 50%; /* Premium blue */
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 220 91% 65%;
+    /* PH Insufilms brand colors - Based on logo */
+    --primary: 45 96% 53%; /* PH Yellow/Gold from logo */
+    --primary-foreground: 0 0% 0%;
+    --primary-glow: 45 96% 65%;
 
     --secondary: 220 14% 96%;
     --secondary-foreground: 220 9% 20%;
@@ -28,8 +28,8 @@ All colors MUST be HSL.
     --muted: 220 14% 96%;
     --muted-foreground: 220 9% 46%;
 
-    --accent: 27 87% 67%; /* Premium gold accent */
-    --accent-foreground: 0 0% 100%;
+    --accent: 220 13% 18%; /* Dark accent to match logo background */
+    --accent-foreground: 45 96% 53%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -40,13 +40,13 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    /* Custom premium design tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(220 91% 50%), hsl(220 91% 65%));
-    --gradient-hero: linear-gradient(135deg, hsl(220 91% 50% / 0.95), hsl(220 9% 20% / 0.95));
-    --gradient-accent: linear-gradient(135deg, hsl(27 87% 67%), hsl(27 87% 75%));
+    /* PH Insufilms custom design tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(45 96% 53%), hsl(45 96% 65%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 13% 18% / 0.95), hsl(0 0% 0% / 0.85));
+    --gradient-accent: linear-gradient(135deg, hsl(220 13% 18%), hsl(220 13% 25%));
     
-    --shadow-elegant: 0 10px 30px -10px hsl(220 91% 50% / 0.3);
-    --shadow-glow: 0 0 40px hsl(220 91% 65% / 0.4);
+    --shadow-elegant: 0 10px 30px -10px hsl(45 96% 53% / 0.3);
+    --shadow-glow: 0 0 40px hsl(45 96% 65% / 0.4);
     --shadow-card: 0 4px 20px -4px hsl(220 9% 46% / 0.15);
     
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -73,9 +73,9 @@ All colors MUST be HSL.
     --popover: 220 9% 12%;
     --popover-foreground: 220 14% 95%;
 
-    --primary: 220 91% 60%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 220 91% 75%;
+    --primary: 45 96% 53%;
+    --primary-foreground: 0 0% 0%;
+    --primary-glow: 45 96% 65%;
 
     --secondary: 220 9% 15%;
     --secondary-foreground: 220 14% 85%;
@@ -83,8 +83,8 @@ All colors MUST be HSL.
     --muted: 220 9% 15%;
     --muted-foreground: 220 9% 65%;
 
-    --accent: 27 87% 67%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 220 13% 25%;
+    --accent-foreground: 45 96% 53%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 220 14% 95%;
@@ -94,12 +94,12 @@ All colors MUST be HSL.
     --ring: 220 91% 60%;
 
     /* Dark mode gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(220 91% 60%), hsl(220 91% 75%));
-    --gradient-hero: linear-gradient(135deg, hsl(220 91% 60% / 0.95), hsl(220 9% 9% / 0.95));
-    --gradient-accent: linear-gradient(135deg, hsl(27 87% 67%), hsl(27 87% 75%));
+    --gradient-primary: linear-gradient(135deg, hsl(45 96% 53%), hsl(45 96% 65%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 13% 18% / 0.95), hsl(0 0% 0% / 0.85));
+    --gradient-accent: linear-gradient(135deg, hsl(220 13% 25%), hsl(220 13% 30%));
     
-    --shadow-elegant: 0 10px 30px -10px hsl(220 91% 60% / 0.4);
-    --shadow-glow: 0 0 40px hsl(220 91% 75% / 0.5);
+    --shadow-elegant: 0 10px 30px -10px hsl(45 96% 53% / 0.4);
+    --shadow-glow: 0 0 40px hsl(45 96% 65% / 0.5);
     --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.3);
 
     /* Sidebar variables (keeping existing) */

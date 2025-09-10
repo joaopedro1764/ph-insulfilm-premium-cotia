@@ -110,7 +110,7 @@ const BeforeAfter = () => {
               <div className="space-y-4 mb-8">
                 {benefits.map((benefit, index) => (
                   <div key={index} className="flex items-center space-x-3">
-                    <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0" />
+                    <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0" />
                     <span className="text-foreground font-medium">{benefit}</span>
                   </div>
                 ))}
@@ -138,7 +138,7 @@ const BeforeAfter = () => {
               </CardContent>
             </Card>
 
-            <div className="bg-accent/10 rounded-lg p-6 border border-accent/20">
+            <div className="bg-primary/10 rounded-lg p-6 border border-primary/20">
               <h4 className="font-bold text-foreground mb-2">💡 Dica Importante:</h4>
               <p className="text-sm text-muted-foreground">
                 Insufilms de qualidade inferior podem desbotar, criar bolhas e até danificar 

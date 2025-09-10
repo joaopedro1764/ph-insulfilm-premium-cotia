@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
             Insufilm 
-            <span className="text-accent"> Premium</span>
+            <span className="text-primary"> Premium</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-4 font-medium">
@@ -34,38 +34,38 @@ const Hero = () => {
 
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <div className="flex items-center space-x-2 bg-background/10 backdrop-blur-sm rounded-lg px-4 py-2">
-              <CheckCircle className="h-5 w-5 text-accent" />
+              <CheckCircle className="h-5 w-5 text-primary" />
               <span className="text-primary-foreground font-medium">Garantia Premium</span>
             </div>
             <div className="flex items-center space-x-2 bg-background/10 backdrop-blur-sm rounded-lg px-4 py-2">
-              <CheckCircle className="h-5 w-5 text-accent" />
+              <CheckCircle className="h-5 w-5 text-primary" />
               <span className="text-primary-foreground font-medium">Instalação Profissional</span>
             </div>
             <div className="flex items-center space-x-2 bg-background/10 backdrop-blur-sm rounded-lg px-4 py-2">
-              <CheckCircle className="h-5 w-5 text-accent" />
+              <CheckCircle className="h-5 w-5 text-primary" />
               <span className="text-primary-foreground font-medium">Cotia - SP</span>
             </div>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              onClick={openWhatsApp}
-              variant="hero" 
-              size="lg" 
-              className="text-lg px-8 py-4 shadow-glow hover:shadow-elegant transition-all duration-300"
-            >
-              <MessageCircle className="h-6 w-6 mr-3" />
-              Orçamento WhatsApp
-            </Button>
-            
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="text-lg px-8 py-4 bg-background/10 backdrop-blur-sm border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-            >
-              <MapPin className="h-6 w-6 mr-3" />
-              Visitar Loja
-            </Button>
+          <Button 
+            onClick={openWhatsApp}
+            variant="premium" 
+            size="lg" 
+            className="text-lg px-8 py-4 shadow-glow hover:shadow-elegant transition-all duration-300 font-semibold"
+          >
+            <MessageCircle className="h-6 w-6 mr-3" />
+            Orçamento WhatsApp
+          </Button>
+          
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="text-lg px-8 py-4 bg-background/10 backdrop-blur-sm border-primary/50 text-primary-foreground hover:bg-primary hover:text-primary-foreground border-2"
+          >
+            <MapPin className="h-6 w-6 mr-3" />
+            Visitar Loja
+          </Button>
           </div>
 
           <div className="mt-12 text-primary-foreground/70">

@@ -133,17 +133,17 @@ const Gallery = () => {
 
         {/* Call to Action */}
         <div className="text-center">
-          <div className="bg-gradient-accent rounded-2xl p-8 inline-block">
-            <h3 className="text-2xl font-bold text-accent-foreground mb-4">
-              Seu carro merece o melhor!
-            </h3>
-            <p className="text-accent-foreground/90 mb-6">
-              Agende uma visita e veja de perto a qualidade PH Insufilms
-            </p>
-            <Button variant="hero" size="lg">
-              Agendar Visita
-            </Button>
-          </div>
+        <div className="bg-gradient-accent rounded-2xl p-8 inline-block">
+          <h3 className="text-2xl font-bold text-accent-foreground mb-4">
+            Seu carro merece o melhor!
+          </h3>
+          <p className="text-accent-foreground/90 mb-6">
+            Agende uma visita e veja de perto a qualidade PH Insufilms
+          </p>
+           <Button variant="premium" size="lg">
+            Agendar Visita
+          </Button>
+        </div>
         </div>
       </div>
 

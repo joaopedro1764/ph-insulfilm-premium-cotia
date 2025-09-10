@@ -103,9 +103,9 @@ const Contact = () => {
                 <div className="space-y-4">
                   <Button 
                     onClick={openWhatsApp}
-                    variant="hero" 
+                    variant="premium" 
                     size="lg"
-                    className="w-full text-lg"
+                    className="text-lg px-8 py-4 font-semibold"
                   >
                     <MessageCircle className="h-6 w-6 mr-3" />
                     Orçamento no WhatsApp
@@ -115,7 +115,7 @@ const Contact = () => {
                     onClick={openMaps}
                     variant="outline" 
                     size="lg"
-                    className="w-full bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+                    className="text-lg px-8 py-4 bg-primary-foreground/10 border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground border-2"
                   >
                     <MapPin className="h-6 w-6 mr-3" />
                     Como Chegar
@@ -124,26 +124,26 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            <Card className="border-accent/20 bg-accent/10 backdrop-blur-sm">
+            <Card className="border-primary/20 bg-primary/10 backdrop-blur-sm border-primary/30">
               <CardContent className="p-6">
                 <h4 className="text-lg font-bold text-foreground mb-3">
                   🎯 Atendimento Especializado
                 </h4>
                 <div className="space-y-3 text-sm">
                   <div className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-accent rounded-full"></div>
+                    <div className="w-2 h-2 bg-primary rounded-full"></div>
                     <span className="text-foreground">Orçamento gratuito e sem compromisso</span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-accent rounded-full"></div>
+                    <div className="w-2 h-2 bg-primary rounded-full"></div>
                     <span className="text-foreground">Consultoria personalizada para seu veículo</span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-accent rounded-full"></div>
+                    <div className="w-2 h-2 bg-primary rounded-full"></div>
                     <span className="text-foreground">Agendamento flexível</span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-accent rounded-full"></div>
+                    <div className="w-2 h-2 bg-primary rounded-full"></div>
                     <span className="text-foreground">Garantia premium em todos os serviços</span>
                   </div>
                 </div>
